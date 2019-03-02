@@ -26,8 +26,8 @@ namespace Comic_Book_Gallery.Models
         {
             get
             {
-                return SeriesTitle.Replace(" ", "-"
-                    .ToLower() + "-" + IssueNumber + ".jpg");   
+                return SeriesTitle.Replace(" ", "-")
+                    .ToLower() + "-" + IssueNumber + ".jpg";   
             }
         }
     }
